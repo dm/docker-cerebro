@@ -1,7 +1,7 @@
 FROM openjdk:8-jre
 
 ENV GOSU_VERSION 1.10
-ENV CEREBRO_VERSION 0.6.5
+ENV CEREBRO_VERSION 0.9.1
 
 RUN set -x \
 	&& wget -O /usr/local/bin/gosu "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$(dpkg --print-architecture)" \

@@ -1,6 +1,6 @@
 CONTAINER_NAME = cerebro
 NAME = dmacedo/cerebro
-VERSION = 0.6.5
+VERSION = 0.9.1
 
 .PHONY: all build test tag_latest release ssh
 
